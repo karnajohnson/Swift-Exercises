@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDDAAD871E7252A500225DA9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDAAD861E7252A500225DA9 /* main.swift */; };
+		FDDAAD8E1E7252D400225DA9 /* Town.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDAAD8D1E7252D400225DA9 /* Town.swift */; };
+		FDDAAD901E7253FC00225DA9 /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDAAD8F1E7253FC00225DA9 /* Monster.swift */; };
+		FDDAAD921E72549A00225DA9 /* Zombie.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDAAD911E72549A00225DA9 /* Zombie.swift */; };
+		FDDAAD941E7255D600225DA9 /* Vampire.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDAAD931E7255D600225DA9 /* Vampire.swift */; };
+		FDDAAD961E732C0400225DA9 /* Mayor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDAAD951E732C0400225DA9 /* Mayor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FDDAAD811E7252A500225DA9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FDDAAD831E7252A500225DA9 /* MonsterTown */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MonsterTown; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDDAAD861E7252A500225DA9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FDDAAD8D1E7252D400225DA9 /* Town.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Town.swift; sourceTree = "<group>"; };
+		FDDAAD8F1E7253FC00225DA9 /* Monster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
+		FDDAAD911E72549A00225DA9 /* Zombie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Zombie.swift; sourceTree = "<group>"; };
+		FDDAAD931E7255D600225DA9 /* Vampire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vampire.swift; sourceTree = "<group>"; };
+		FDDAAD951E732C0400225DA9 /* Mayor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mayor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDDAAD801E7252A500225DA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDDAAD7A1E7252A400225DA9 = {
+			isa = PBXGroup;
+			children = (
+				FDDAAD851E7252A500225DA9 /* MonsterTown */,
+				FDDAAD841E7252A500225DA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDDAAD841E7252A500225DA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDDAAD831E7252A500225DA9 /* MonsterTown */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDDAAD851E7252A500225DA9 /* MonsterTown */ = {
+			isa = PBXGroup;
+			children = (
+				FDDAAD861E7252A500225DA9 /* main.swift */,
+				FDDAAD911E72549A00225DA9 /* Zombie.swift */,
+				FDDAAD931E7255D600225DA9 /* Vampire.swift */,
+				FDDAAD951E732C0400225DA9 /* Mayor.swift */,
+				FDDAAD8F1E7253FC00225DA9 /* Monster.swift */,
+				FDDAAD8D1E7252D400225DA9 /* Town.swift */,
+			);
+			path = MonsterTown;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDDAAD821E7252A500225DA9 /* MonsterTown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDDAAD8A1E7252A500225DA9 /* Build configuration list for PBXNativeTarget "MonsterTown" */;
+			buildPhases = (
+				FDDAAD7F1E7252A500225DA9 /* Sources */,
+				FDDAAD801E7252A500225DA9 /* Frameworks */,
+				FDDAAD811E7252A500225DA9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonsterTown;
+			productName = MonsterTown;
+			productReference = FDDAAD831E7252A500225DA9 /* MonsterTown */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDDAAD7B1E7252A500225DA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Karna Johnson";
+				TargetAttributes = {
+					FDDAAD821E7252A500225DA9 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FDDAAD7E1E7252A500225DA9 /* Build configuration list for PBXProject "MonsterTown" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FDDAAD7A1E7252A400225DA9;
+			productRefGroup = FDDAAD841E7252A500225DA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDDAAD821E7252A500225DA9 /* MonsterTown */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDDAAD7F1E7252A500225DA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDAAD871E7252A500225DA9 /* main.swift in Sources */,
+				FDDAAD921E72549A00225DA9 /* Zombie.swift in Sources */,
+				FDDAAD961E732C0400225DA9 /* Mayor.swift in Sources */,
+				FDDAAD901E7253FC00225DA9 /* Monster.swift in Sources */,
+				FDDAAD941E7255D600225DA9 /* Vampire.swift in Sources */,
+				FDDAAD8E1E7252D400225DA9 /* Town.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FDDAAD881E7252A500225DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDDAAD891E7252A500225DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FDDAAD8B1E7252A500225DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FDDAAD8C1E7252A500225DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDDAAD7E1E7252A500225DA9 /* Build configuration list for PBXProject "MonsterTown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDAAD881E7252A500225DA9 /* Debug */,
+				FDDAAD891E7252A500225DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDDAAD8A1E7252A500225DA9 /* Build configuration list for PBXNativeTarget "MonsterTown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDAAD8B1E7252A500225DA9 /* Debug */,
+				FDDAAD8C1E7252A500225DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDDAAD7B1E7252A500225DA9 /* Project object */;
+}
